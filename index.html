@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Digital Art Portfolio</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        color: #333;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 20px;
+      }
+
+      .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      .gallery {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+      }
+
+      .gallery li {
+        flex-basis: calc(33.33% - 20px);
+        margin-bottom: 20px;
+        background-color: #fff;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+        overflow: hidden;
+      }
+
+      .gallery img {
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      .gallery img:hover {
+        transform: scale(1.1);
+      }
+
+      .gallery h2 {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px;
+        text-align: center;
+      }
+
+      .gallery p {
+        font-size: 16px;
+        margin: 10px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Ibrahim Jaber Digital Art Portfolio</h1>
+      <p>A Prompt Digital Artist</p>
+    </header>
+    <div class="container">
+      <h2>Gallery</h2>
+      <ul class="gallery">
+        <li>
+          <img
+            src="https://cdn.midjourney.com/3dabcbf0-466f-40f3-8439-ecabcb28171b/0_0.png"
+            alt="Artwork 1"
+          />
+          <h2>NIKE SB DUNK</h2>
+          <p>Nike SB Dunk Low Blue Print</p>
+        </li>
+
+        <li>
+          <img
+            src="https://cdn.midjourney.com/aa0c0c64-c698-4795-860a-59872d05d14d/0_0.png"
+            alt="Artwork 2"
+          />
+          <h2>NIKE AIR-FORCE 1</h2>
+          <p>Nike Air-Force 1 abstract</p>
+        </li>
+        <li>
+          <img
+            src="https://cdn.midjourney.com/ab24501c-b0d7-4af2-800b-014ddfc85faf/grid_0.png"
+            alt="Artwork 3"
+          />
+          <h2>NIKE AIR JORDAN 1</h2>
+          <p>Nike Air Jordan 1 abstract</p>
+        </li>
+        <li>
+          <img
+            src="https://cdn.midjourney.com/eb5a5ac6-7e0d-4872-bfd2-1031306d101c/grid_0.png"
+            alt="Artwork 4"
+          />
+          <h2>NIKE AIR JORDAN 1</h2>
+          <p>Nike Air Jordan 1 abstract</p>
+        </li>
+        <li>
+          <img
+            src="https://cdn.midjourney.com/b8852e74-b1f6-4ca3-84a7-7736b9255b00/grid_0.png"
+            alt="Artwork 4"
+          />
+          <h2>ADIDAS NMD HU</h2>
+          <p>Adidas NMD human race</p>
+        </li>
+        <li>
+          <img
+            src="https://cdn.midjourney.com/568f0421-7470-4d71-9240-9274540d715c/grid_0.png"
+            alt="Artwork 4"
+          />
+          <h2>METATRON CUBE</h2>
+          <p>Metatron cube abstract</p>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
